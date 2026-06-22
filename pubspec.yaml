@@ -1,0 +1,35 @@
+name: purseonality
+description: Premium Handbags & Weaves — Purseonality App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  provider: ^6.1.2
+
+  # Fonts
+  google_fonts: ^6.2.1
+
+  # Local storage (auth persistence)
+  shared_preferences: ^2.3.2
+
+  # Native sharing
+  share_plus: ^10.0.0
+
+  # Open PayFast in browser
+  url_launcher: ^6.3.0
+
+  # HTTP calls (for when backend goes live)
+  http: ^1.2.1
+  firebase_core: ^4.11.0
+  firebase_auth: ^6.5.3
+  cloud_firestore: ^6.6.0
+
+flutter:
+  uses-material-design: true
